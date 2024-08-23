@@ -104,7 +104,7 @@
             <div class="row">
                <div class="col-md-6">
                   <div class="banner_taital">Bienvenido <br> a Mytienda</div>
-                  <p class="banner_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                  <p class="banner_text">El mejor lugar para tirar tu dinero en toda la internet.. </p>
                   <div class="see_bt"><a href="#">See More</a></div>
                </div>
                <div class="col-md-6">
