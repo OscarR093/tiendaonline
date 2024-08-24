@@ -52,7 +52,7 @@
                      <a class="nav-link" href="index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="movies.html">Categorias</a>
+                     <a class="nav-link" href="#">Categorias</a>
                   </li>
                   <li class="nav-item">
                    <!--  <a class="nav-link" href="tv.html">TV</a>-->
