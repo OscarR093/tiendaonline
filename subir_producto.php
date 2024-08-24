@@ -24,13 +24,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // Mover la imagen al directorio destino
     if (move_uploaded_file($imagenTmpNombre, $imagenDestino)) {
-        // Conectar a la base de datos
-       // $conexion = new mysqli("localhost", "usuario", "contraseña", "nombre_base_datos");
+        
          include("conexion.php");
-        // Verificar la conexión
-      //  if ($conexion->connect_error) {
-        //    die("Error de conexión: " . $conexion->connect_error);
-        //}
+        
 
         // Preparar la sentencia SQL
         $sql = $conexion->prepare("INSERT INTO productos (nombre, descripcion,categoria, precio, stock, imagen, id_usuario) VALUES (?, ?, ?, ?, ?,?,?)");
